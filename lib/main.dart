@@ -57,7 +57,7 @@ class _HomepageState extends State<Homepage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(isFull ? 'Lotado!' : 'Pode entrar!',
+            Text(isFull ? 'Lotado :(' : 'Pode entrar!',
                 style: TextStyle(
                   fontSize: 30,
                   color: isFull ? Colors.yellow : Colors.white,
